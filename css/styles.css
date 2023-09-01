@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #D3BB85;
+}
+
+.hero-container {
+    background: rgba(0, 0, 0, 0.4);
+
+    /* box model */
+    height: 100%;
+    width: 100%;
+    padding: 200px;
+    background-image: url("/assets/images/hasnain.jpg");
+    background-size: cover;
+}
+
+.hero-container p {
+    width: 600px;
+}
+
+.hero-container h1 {
+    font-size: 80px;
+}
+
+/* services section */
+
+.services-container {
+    /* box model */
+    height: 100%;
+    width: 100%;
+    padding: 100px 200px;
+}
+
+.services-container span {
+    border: 2px solid black;
+    padding: 40px;
+    margin-right: 100px;
+    width: 300px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    border-radius: 16px;
+}
+
+.services-list-wrapper {
+    margin-top: 100px;
+    width: 100%;
+    height: fit-content;
+
+    /* layout */
+    /* flexbox */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 24px;
+}
